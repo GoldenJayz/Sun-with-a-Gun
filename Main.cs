@@ -40,7 +40,9 @@ public partial class Main : MonoBehaviour
 
         Destroy(GetComponent<BoxCollider2D>());
 
-        AddComponent<BoxCollider2D>();
+        GameObject player = GameObject.Find("character");
+        
+        player.AddComponent<BoxCollider2D>();
 
         transform.localScale = new Vector3(0.1f, 0.1f, 0f);
 
