@@ -38,6 +38,10 @@ public partial class Main : MonoBehaviour
         if(CharacterSelect.character is not null) sr.sprite = CharacterSelect.character;
         else if(CharacterSelect.character is null) sr.sprite = GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("liam");
 
+        Destroy(GetComponent<BoxCollider2D>());
+
+        AddComponent<BoxCollider2D>();
+
         transform.localScale = new Vector3(0.1f, 0.1f, 0f);
 
     }
