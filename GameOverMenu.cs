@@ -11,6 +11,10 @@ public class GameOverMenu : MonoBehaviour
         SceneManager.LoadScene("Scenes/MainGame");
     }
 
+    public void Character()
+    {
+        SceneManager.LoadScene("Scenes/CharacterSelect");
+    }
 
     public void Exit()
     {

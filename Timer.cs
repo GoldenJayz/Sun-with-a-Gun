@@ -31,7 +31,7 @@ public class Timer : MonoBehaviour
         // Create a new Timer object everytime the _player lands on a new block
         // Shrink the time based on how many GameObjects are loaded in
         // Game is clamped down to 60 FPS
-        sprite = Resources.Load<Sprite>("angrysun");
+        sprite = Resources.Load<Sprite>("VERYANGRYSUN");
         sprite2 = Resources.Load<Sprite>("happysun");
         sun = GameObject.Find("Image");
     }
