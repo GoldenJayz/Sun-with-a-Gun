@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class CameraScript : MonoBehaviour
 {
-    public float lastY = -2f; // The last Y coordinate of the camera NOTE: Also set to 1.62 so it follows the player immediately
+    public float lastY = -3f; // The last Y coordinate of the camera NOTE: Also set to 1.62 so it follows the player immediately
     private int frame = 0;
 
     private void Update()
