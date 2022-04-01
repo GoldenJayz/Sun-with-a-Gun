@@ -60,4 +60,51 @@ public class CharacterSelect : MonoBehaviour
 
         SceneManager.LoadScene("MainGame");
     }
+
+    public void Slug_Reaction()
+    {
+        character = Resources.Load<Sprite>("slug");
+
+        Character data = new Character
+        { 
+            Selected = character
+        };
+
+        SceneManager.LoadScene("MainGame");
+    }
+
+    public void Mario()
+    {
+        character = Resources.Load<Sprite>("Mario");
+
+        Character data = new Character
+        { 
+            Selected = character
+        };
+
+        SceneManager.LoadScene("MainGame");
+    }
+
+    public void Waluigi()
+    {
+        character = Resources.Load<Sprite>("Waluigi");
+
+        Character data = new Character
+        { 
+            Selected = character
+        };
+
+        SceneManager.LoadScene("MainGame");
+    }
+    public void Lean_Bonnie()
+    {
+        character = Resources.Load<Sprite>("lean_bonnie2");
+
+        Character data = new Character
+        { 
+            Selected = character
+        };
+
+        SceneManager.LoadScene("MainGame");
+    }
 }
