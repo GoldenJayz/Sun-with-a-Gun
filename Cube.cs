@@ -18,8 +18,8 @@ public class Cube : MonoBehaviour
     {
         if (Input.GetKey("w")) rb.AddForce(new Vector3(1.0f, 0f, 0f) * force);
         else if (Input.GetKey("s")) rb.AddForce(new Vector3(-1.0f, 0f, 0f) * force);
-        else if (Input.GetKey("d")) rb.AddForce(new Vector3(1.0f, 0f, -1.0f) * force);
-        else if (Input.GetKey("a")) rb.AddForce(new Vector3(1.0f, 0f, 1.0f) * force);
+        else if (Input.GetKey("d")) rb.AddForce(new Vector3(0f, 0f, -1.0f) * force);
+        else if (Input.GetKey("a")) rb.AddForce(new Vector3(0f, 0f, 1.0f) * force);
 
 
     }
